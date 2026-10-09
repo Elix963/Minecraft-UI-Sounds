@@ -19,15 +19,15 @@ Click **▶️ Play** to listen before you install.
 
 | What triggers it | Minecraft sound | Preview |
 |---|---|---|
-| 🔓 Unlock the phone | TODO: sound name | [▶️ Play](previews/unlock.mp3) |
-| 🔒 Lock the phone | TODO: sound name | [▶️ Play](previews/lock.mp3) |
-| 🪫 Low battery warning | TODO: sound name | [▶️ Play](previews/low-battery.mp3) |
-| 🔌 Plug in the charger (wired / wireless) | TODO: sound name | [▶️ Play](previews/charging.mp3) |
-| 👆 Touch / tap sounds | TODO: sound name | [▶️ Play](previews/touch.mp3) |
-| 📸 Take a screenshot | TODO: sound name | [▶️ Play](previews/screenshot.mp3) |
-| ⌨️ Keyboard key press (Gboard / AOSP keyboards) | TODO: sound name | [▶️ Play](previews/keyboard-key.mp3) |
-| ⌨️ Keyboard space / delete / enter | TODO: sound name | [▶️ Play](previews/keyboard-space-delete.mp3) |
-| ⚡ Power on (OneUI only, experimental) | TODO: sound name | [▶️ Play](previews/power-on.mp3) |
+| 🔓 Unlock the phone | Chest open | [▶️ Play](previews/unlock.mp3) |
+| 🔒 Lock the phone | Chest closed | [▶️ Play](previews/lock.mp3) |
+| 🪫 Low battery warning | Hit sound | [▶️ Play](previews/low-battery.mp3) |
+| 🔌 Plug in the charger (wired / wireless) | Xp sound | [▶️ Play](previews/charging.mp3) |
+| 👆 Touch / tap sounds | Minecraft menu click sound | [▶️ Play](previews/touch.mp3) |
+| 📸 Take a screenshot | villager sound | [▶️ Play](previews/screenshot.mp3) |
+| ⌨️ Keyboard key press (Gboard / AOSP keyboards) | Item drop sound | [▶️ Play](previews/keyboard-key.mp3) |
+| ⌨️ Keyboard space / delete / enter | Hit sound | [▶️ Play](previews/keyboard-space-delete.mp3) |
+| ⚡ Power on (OneUI only, experimental) | achievement | [▶️ Play](previews/power-on.mp3) |
 
 > **Note:** Samsung Keyboard keeps its sounds inside the app, so the keyboard sounds only work with Gboard or AOSP keyboards.
 
@@ -53,10 +53,7 @@ To test the power-on sound, shut the phone down completely and start it with the
 
 ## ❓ Troubleshooting
 
-- **A sound didn't change:** check that the file exists on your device with
-  `su -c ls /system/media/audio/ui/` (OneUI) or `su -c ls /product/media/audio/ui/` (AOSP).
-- **OneUI sound themes:** pick the **Default** theme, otherwise the system may load the `_Calm` / `_Fun` / `_Retro` variants instead.
-- **Installing an old version first?** Remove it, reboot, then install the new one.
+- **OneUI sound themes:** Go to **Sittings** → **Sounds and vibration** → **System sound** → **System sound theme** and pick the **Default** theme, Otherwise, the sounds will not work.
 
 ## ⚠️ Disclaimer
 
