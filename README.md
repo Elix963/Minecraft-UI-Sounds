@@ -53,6 +53,8 @@ To test the power-on sound, shut the phone down completely and start it with the
 
 ## ❓ Troubleshooting
 
+- [Tested on OneUI 8]
+  
 - **OneUI sound themes:** Go to **Sittings** → **Sounds and vibration** → **System sound** → **System sound theme** and pick the **Default** theme, Otherwise, the sounds will not work.
 
 ## ⚠️ Disclaimer
