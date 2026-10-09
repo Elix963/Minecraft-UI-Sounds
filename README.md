@@ -39,8 +39,8 @@ Get the zip for your device from the [**Releases**](../../releases) page.
 
 | Version | For |
 |---|---|
-| `MinecraftUISounds_OneUI_v2.0.zip` | Samsung OneUI (including UN1CA) |
-| `MinecraftUISounds_AOSP_v2.0.zip` | AOSP ROMs that use `/product/media/audio/ui` |
+| `MinecraftUISounds_OneUI_v2.0.zip` | Samsung OneUI `/system/media/audio/ui` |
+| `MinecraftUISounds_AOSP_v2.0.zip` | AOSP ROMs `/product/media/audio/ui` |
 
 ## 🛠️ Installation
 
@@ -57,4 +57,13 @@ To test the power-on sound, shut the phone down completely and start it with the
 
 ## ⚠️ Disclaimer
 
-This project is not affiliated with Mojang Studios or Microsoft. Minecraft and its sounds belong to their respective owners. Use this module for personal use only.
+**Use this module at your own risk.**
+
+This module is provided "as is", without warranty of any kind. I am **not responsible** for any damage to your device, including but not limited to:
+
+- Bootloops or soft-bricks
+- Data loss
+- Audio, system or app malfunctions
+- Warranty loss, or any other issue caused by rooting or flashing modules
+
+By installing it you accept full responsibility. Always make a backup first, and make sure you know how to disable or remove KernelSU / Magisk modules (for example from recovery or safe mode) if something goes wrong.
